@@ -54,7 +54,12 @@ h2 {
 
 .donate-today {
     text-align: center;
-    background-color: darkgray;
+    background-color:#ececec;
+}
+
+.Taka {
+    font-size: 20px;
+
 }
 
 .amount-tk {
@@ -126,7 +131,7 @@ h2 {
 
 .your-donation {
     text-align: center;
-    background-color: yellow;
+    
 }
 
 
