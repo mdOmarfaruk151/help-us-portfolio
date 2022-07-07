@@ -28,15 +28,15 @@
             million people have been affected by the floods.
         </p>
         <br>
-        <a class="Link-button" target="_blank" href="https://github.com/mdOmarfaruk151/help-us-portfolio">Donate
-            Now</a>
-        <br>
-
+        <a class="Link-button" target="_blank" href="https://www.facebook.com/Mohammad.Omar.Faruk007">Donate Now</a>
+       <br>
+       
     </section>
 
     <Section class="donate-today">
         <br>
         <h2> Donate Today</h2>
+        <br>
         <p class="mid-part-2">
 
             “No one has ever become poor by giving.” <br>
@@ -70,7 +70,7 @@
         </p>
         <br>
 
-        <a class="Link-button" target="_blank" href="https://github.com/mdOmarfaruk151/help-us-portfolio">Donate
+        <a class="Link-button" target="_blank" href="https://www.facebook.com/Mohammad.Omar.Faruk007">Donate
             Now</a>
 
     </Section>
@@ -79,6 +79,7 @@
     <section class="our-donate-plan">
 
         <h2>Our Donate Plan</h2>
+        <br>
         <p class="mid-part-2">
             Here is our some basic Donate items.
         </p>
@@ -132,8 +133,128 @@
         <p>
             blalalalalalalalala
         </p>
+        <br>
 
+        <div class="slideshow-container">
 
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="slider/donation 1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="slider/donation 2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 4.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 5.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 6.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 7.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 8.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 9.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 10.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 11.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 12.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slider/donation 13.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
 
 
 
