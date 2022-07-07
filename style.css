@@ -47,7 +47,9 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
+
 }
 
 .donate-today {
@@ -55,7 +57,30 @@ h2 {
 }
 
 .amount-tk {
-    font-size: ;
+    font-size: 25px
+}
+
+.half-width {
+
+    width: 20%;
+    padding: 5px;
+
+
+}
+
+#red2 {
+    width: 10%;
+    color: red;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(223, 156, 156);
+    border: 2px solid red;
+    font-size:
 }
 
 .flexible-container {
@@ -64,8 +89,7 @@ h2 {
 }
 
 .Our-Donate-Plan {
-    background-image: url(images/gray-background.png);
-    background-repeat: no-repeat;
+
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
